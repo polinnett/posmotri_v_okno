@@ -46,6 +46,7 @@ ol {
   min-width: 1140px;
   height: 534px;
   gap: 30px;
+  margin-top: 2px;
 }
 
 .search-form {
@@ -70,7 +71,7 @@ ol {
 }
 
 .mb-1 {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .result__video-container {
@@ -274,4 +275,30 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 
 .button:hover {
   text-decoration: underline;
+}
+
+.content__card-link {
+  display: block;
+  margin: 2px;
+}
+
+.content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
