@@ -108,11 +108,6 @@ ol {
   height: 100%;
 }
 
-.preloader-template {
-  position: absolute;
-  inset: 0;
-}
-
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
