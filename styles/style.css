@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
+  inline-size: 1212px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -43,11 +43,10 @@ ol {
 .content {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   min-width: 1140px;
-  min-height: 534px;
   gap: 30px;
   margin-top: 2px;
-  margin-left: 14px;
 }
 
 .search-form {
